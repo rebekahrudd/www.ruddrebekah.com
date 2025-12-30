@@ -49,6 +49,8 @@
   justify-content: flex-end;
   align-items: flex-end;
   border-bottom: 0.25rem solid #563727;
+  z-index: 100; 
+  /* A high number ensures it's on top */
 }
 
 .navbar a {
