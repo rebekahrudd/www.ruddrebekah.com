@@ -9,6 +9,165 @@
     />
     <title>Rebekah Rudd</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <!-- <link
+    href="//cdn-images.mailchimp.com/embedcode/classic-061523.css"
+    rel="stylesheet"
+    type="text/css"
+  /> -->
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f6f8;
+        margin: 0;
+        color: #333;
+      }
+
+      /* Hero Image */
+      .hero {
+        background-image: url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1");
+        background-size: cover;
+        background-position: center;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      }
+
+      .hero h1 {
+        background: rgba(0, 0, 0, 0.5);
+        padding: 15px 25px;
+        border-radius: 8px;
+      }
+
+      /* .container {
+              max-width: 1000px;
+              margin: 40px auto;
+              padding: 20px;
+          } */
+
+      /* Grid Section */
+      .info-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin-bottom: 40px;
+      }
+
+      .card {
+        background: white;
+        padding: 25px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+      }
+
+      .card i {
+        font-size: 40px;
+        margin-bottom: 15px;
+        color: #563727;
+      }
+
+      .card h3 {
+        margin-bottom: 10px;
+      }
+
+      .card a {
+        text-decoration: none;
+        color: #c69b5d;
+        font-weight: bold;
+      }
+
+      /* Research Section */
+      .research {
+        background-color: white;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 40px;
+      }
+
+      .research img {
+        width: 100%;
+        max-height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 15px;
+      }
+
+      /* Form Container */
+      .form-container {
+        background-color: #fafafa;
+        border: 2px dashed #ccc;
+        padding: 25px;
+        border-radius: 10px;
+      }
+
+      .form-container i {
+        font-size: 30px;
+        color: #555;
+        margin-bottom: 10px;
+      }
+
+      /* Research Links Grid */
+      .research-links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin-top: 25px;
+      }
+
+      .research-link-card {
+        background-color: #f4f6f8;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        transition:
+          transform 0.2s ease,
+          box-shadow 0.2s ease;
+      }
+
+      .research-link-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+      }
+
+      .research-link-card i {
+        font-size: 36px;
+        color: #563727;
+        margin-bottom: 10px;
+      }
+
+      .research-link-card h4 {
+        margin-bottom: 10px;
+      }
+
+      .research-link-card a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #c69b5d;
+      }
+
+      /* Mobile support */
+      @media (max-width: 768px) {
+        .research-links {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -44,85 +203,244 @@
       </nav>
     </header>
 
-    <main style="background-color: #e8e0c4; padding-top: 90px">
-      <h2 class="cover_letter_title">About Me</h2>
-      <p class="cover_letter">
-        My name is Rebekah Rudd. I am a Allegheny College Summer 2025 Graduate.
-        Allegheny College is in Meadville, PA. I graduated from Allegheny
-        College with a Bachelor's of Science in Computer Science and Minors in
-        Mandarin Chinese and Arabic. I attended Hanover High School in Hanover
-        and graduated in 2021. In addition to my education I had held various
-        jobs in the community; and experienced different jobs and environments.
-      </p>
-      <!-- Through my training in the Allegheny College Computer Science department I am
-          learning to problem solve and think outside the box; for example, in lab periods
-          I write code for functions and then evaluate the code to find bugs in it.  -->
-      <p class="cover_letter">
-        Being a cadet in the Army ROTC program through Allegheny College and
-        PennWest Edinboro University has provided me with experience leading
-        others and has prepared me to lead even when I do not feel confident.
-        For example, as a Junior we are expected to help teach the underclassmen
-        skills such as land navigation or individual movement techniques. I also
-        have experience working with others and teaching others through my job
-        as a camp counselor at Ligonier Camp and Conference Center and through
-        tutoring at Kumon. I am a skilled and flexible worker who will work hard
-        no matter the environment I am in.
-      </p>
-      <p class="cover_letter">
-        In addition, I enjoy learning new skills. My education from Hanover High
-        School and Allegheny College has not only taught me how to work hard in
-        school and see projects through to their finish, but I have learned how
-        to communicate effectively with others around me. These skills will
-        translate to my work where ever I am.
-      </p>
+    <main style="background-color: #e8e0c4; padding-top: 90px; color: #563727">
+      <h1 class="cover_letter_title">Portfolio</h1>
 
-      <h2 class="cover_letter_title">Current Projects</h2>
-      <p class="cover_letter">
-        While studying at Allegheny College all seniors are required to work on
-        a senior project. For my senior comprehensive project I built a website
-        that allows people to add greater depth and layers to flashcard
-        learning.
-      </p>
+      <div class="container">
+        <!-- Grid for Education, LinkedIn, Resume -->
+        <div class="info-grid">
+          <div class="card">
+            <i class="fas fa-graduation-cap"></i>
+            <h3>Allegheny College B.S.</h3>
+            <p style="color: #c69b5d">
+              Computer Science Major<br />
+              Arabic and Chinese Minor<br />
+              Completed August 2025<br />
+              Phi Beta Kappa, PSI, ACM, FCA
+            </p>
+          </div>
 
-      <p class="cover_letter_link">
-        <a
-          href="https://allegheny-college-comp-fall-2024.github.io/rebekahrudd-multilayered-flashcards-study-tool/index.html"
-          >Link to Multilayered Website</a
-        >
-      </p>
-      <p class="cover_letter_link">
-        <a
-          href="https://github.com/CMPSC-580-Allegheny-College-Spring-2024/mandarin-studytools-rebekahrudd?tab=readme-ov-file"
-          >Link to Github</a
-        >
-      </p>
-      <p class="cover_letter_link">
-        <a
-          href="https://allegheny-college-comp-fall-2024.github.io/research-journal-rebekahrudd/thesis/"
-          >Link to the my writing</a
-        >
-      </p>
+          <div class="card">
+            <i class="fab fa-linkedin"></i>
+            <h3>LinkedIn</h3>
+            <p>
+              <a
+                href="https://www.linkedin.com/in/rebekah-rudd"
+                target="_blank"
+              >
+                Visit my LinkedIn
+              </a>
+            </p>
+          </div>
 
-      <p class="cover_letter">
-        Multilayered Flashcards, as the name suggests is a flashcards learning
-        application. Multilayered Flashcards is set apart because rather than
-        having just one item on the front and one item on the back, Multilayered
-        Flashcards allows the user to have more than two items of study and
-        allows the user to choose which pieces of information they would like of
-        the front and back of their flashcard. At the beginning of each study
-        session they can select the options that they want on the front and on
-        the back by using the Options Menu. There are multiple different data
-        sets available for use. These study sets include Mandarin, Greek
-        Alphabet, Hebrew Alphabet, Arabic Alphabet, Periodic Table, Animal
-        Information, American Presidents, and Roman Emperor study sets. And
-        there are more study sets to come.
-      </p>
+          <div class="card">
+            <i class="fas fa-file-download"></i>
+            <h3>Resume</h3>
+            <p>
+              <a href="rebekahrudd_resume.pdf" download="rebekahrudd_resume.pdf"
+                >Download Resume</a
+              >
+            </p>
+          </div>
+        </div>
 
-      <h2 class="cover_letter_title">My Resume</h2>
-      <p class="cover_letter">
-        Bellow is a downloadable copy of my resume. In addition this webpage
-        will be updated soon with my resume and other projects I am working on.
-      </p>
+        <!-- Research Section -->
+        <div class="research">
+          <h2 style="margin-bottom: 10px">
+            <i class="fas fa-flask"></i> Current Research
+          </h2>
+
+          <!-- <img src="https://images.unsplash.com/photo-1581091870627-3b5c6a3f45b4" alt="Research image"> -->
+
+          <p style="color: #c69b5d">
+            Multilayered Flashcards is a flashcards learning application that
+            allows the users to learn more layers of information about a given
+            topic. There are study sets available for Mandarin, the Greek
+            Alphabet, the Hebrew Alphabet, the Arabic Alphabet, the Periodic
+            Table, Animal Information, American Presidents, and Roman Emperors.
+          </p>
+
+          <!-- Research Links Grid -->
+          <div class="research-links">
+            <div class="research-link-card">
+              <i class="fab fa-github"></i>
+              <h4>GitHub</h4>
+              <a
+                href="https://github.com/CMPSC-580-Allegheny-College-Spring-2024/mandarin-studytools-rebekahrudd?tab=readme-ov-file"
+                >View Code Repository</a
+              >
+            </div>
+
+            <div class="research-link-card">
+              <i class="fas fa-globe"></i>
+              <h4>Project Website</h4>
+              <a
+                href="https://allegheny-college-comp-fall-2024.github.io/rebekahrudd-multilayered-flashcards-study-tool/index.html"
+                >Visit MultilayeredFlashcards Website</a
+              >
+            </div>
+
+            <div class="research-link-card">
+              <i class="fas fa-file-alt"></i>
+              <h4>Research Paper</h4>
+              <a
+                href="https://allegheny-college-comp-fall-2024.github.io/research-journal-rebekahrudd/thesis/"
+              >
+                Read the Paper
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form Placeholder -->
+        <!-- <div class="form-container">
+          <i class="fas fa-envelope"></i>
+          <h2>Contact / Inquiry Form</h2>
+          <p>Form goes here (contact, collaboration request, etc.).</p>
+      </div> -->
+
+        <div id="mc_embed_signup">
+          <form
+            action="https://gmail.us11.list-manage.com/subscribe/post?u=f9fe82b8d4b3288e778c01a9f&amp;id=ed57885f0d&amp;f_id=00e211e1f0"
+            method="post"
+            id="mc-embedded-subscribe-form"
+            name="mc-embedded-subscribe-form"
+            class="validate"
+            target="_blank"
+          >
+            <div id="mc_embed_signup_scroll">
+              <!-- <h2>Subscribe</h2> -->
+              <h2
+                style="margin-bottom: 10px; font-size: 1.5em; font-weight: bold"
+              >
+                Subscribe to my newsletter!
+              </h2>
+
+              <!-- <img src="https://images.unsplash.com/photo-1581091870627-3b5c6a3f45b4" alt="Research image"> -->
+
+              <p style="color: #c69b5d">
+                Get a more personal view of my work and world. Join to get
+                quarterly updates about my job and life.
+              </p>
+
+              <div class="indicates-required">
+                <span class="asterisk">*</span> indicates required
+              </div>
+              <div class="mc-field-group">
+                <label for="mce-EMAIL"
+                  >Email Address <span class="asterisk">*</span></label
+                ><input
+                  type="email"
+                  name="EMAIL"
+                  class="required email"
+                  id="mce-EMAIL"
+                  required=""
+                  value=""
+                />
+              </div>
+              <div class="mc-field-group">
+                <label for="mce-FNAME">First Name </label
+                ><input
+                  type="text"
+                  name="FNAME"
+                  class="text"
+                  id="mce-FNAME"
+                  value=""
+                />
+              </div>
+              <div class="mc-field-group">
+                <label for="mce-LNAME">Last Name </label
+                ><input
+                  type="text"
+                  name="LNAME"
+                  class="text"
+                  id="mce-LNAME"
+                  value=""
+                />
+              </div>
+              <div class="mc-field-group size1of2">
+                <label for="mce-BIRTHDAY-month">Birthday </label>
+                <div class="datefield">
+                  <span class="subfield monthfield"
+                    ><input
+                      class="birthday REQ_CSS"
+                      type="text"
+                      pattern="[0-9]*"
+                      placeholder="MM"
+                      size="2"
+                      maxlength="2"
+                      name="BIRTHDAY[month]"
+                      id="mce-BIRTHDAY-month"
+                      value=""
+                  /></span>
+                  /<span class="subfield dayfield"
+                    ><input
+                      class="birthday REQ_CSS"
+                      type="text"
+                      pattern="[0-9]*"
+                      placeholder="DD"
+                      size="2"
+                      maxlength="2"
+                      name="BIRTHDAY[day]"
+                      id="mce-BIRTHDAY-day"
+                      value="" /></span
+                  ><span class="small-meta nowrap">( mm / dd )</span>
+                </div>
+              </div>
+              <div id="mce-responses" class="clear foot">
+                <div
+                  class="response"
+                  id="mce-error-response"
+                  style="display: none"
+                ></div>
+                <div
+                  class="response"
+                  id="mce-success-response"
+                  style="display: none"
+                ></div>
+              </div>
+              <div aria-hidden="true" style="position: absolute; left: -5000px">
+                /* real people should not fill this in and expect good things -
+                do not remove this or risk form bot signups */
+                <input
+                  type="text"
+                  name="b_f9fe82b8d4b3288e778c01a9f_ed57885f0d"
+                  tabindex="-1"
+                  value=""
+                />
+              </div>
+              <div class="optionalParent">
+                <div class="clear foot">
+                  <input
+                    type="submit"
+                    name="subscribe"
+                    id="mc-embedded-subscribe"
+                    class="button"
+                    value="Subscribe"
+                  />
+                  <p style="margin: 0px auto">
+                    <a
+                      href="http://eepurl.com/i7dacY"
+                      title="Mailchimp - email marketing made easy and fun"
+                    >
+                      <!-- <span style="display: inline-block; background-color: transparent; border-radius: 4px;">
+                <img class="refferal_badge" src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg" alt="Intuit Mailchimp" style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;">
+              </span> -->
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!-- container div -->
+      </div>
+
+      <script
+        type="text/javascript"
+        src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+      ></script>
 
       <!-- <div class="accordion-item" data-initially-open="true">
         <h3 class="accordion-title" role="button">
@@ -150,14 +468,6 @@
           </ul>
         </div>
       </div> -->
-
-      <p id="resume_download">
-        <a href="rebekahrudd_resume.pdf" download="rebekahrudd_resume.pdf"
-          >Click here to download the pdf version of my resume</a
-        >
-      </p>
-      <!-- <p id="resume_download"><a href="https://doc-10-c0-prod-00-apps-viewer.googleusercontent.com/viewer2/prod-00/pdf/endm01k8medqrdjhbff7n80d9uujhono/mon723kd167bmjngsf1ncd0e4o6pl2s4/1745878275000/3/116761084686343581932/APznzaZw93TJ_KKR7uaTepZWl--M8-xMq5wsIPTb3nlV-ewo3iP7M5yEEA1PzjS6A7DlKM_FETEXKzmUQmuLkVzKrAJaPMRKIVN_bhDVdH555ZsnT2z9uoF7pcU9bNP7YvWSo0CnUXX0HKj1gVqzUcDwgjBKAvfj04N29QLy7Rlv-7j8UA-4eposEmzEWZOxfZoncPuaXt0Bmx7heZqleJqVh4wYAmH9aHlTwDQtJ7bsucH_Lt85xTxXcmSFyg1dtGhDmFIvMfXJW_HgIFQoOfmPi_uvfpytwB-GyQYAjB2cAgqOfpBldsux-9i10VhfYC9jFYPlKVfeZO2prIcOHlxuOGCepzA5YAEgWLwYTdC6AIziEX4mNwL1UbdJzqRp2zXa2KnDD7bqFmDLVstwTBHD3hFqlRPZD0VCuPkSyG3xm2UFbhtEr22SJsZygWQjD_pbej3qVah-jQLLum7QObdBY9Q1qH6vMgwRkflSufJvpCnpUMGj8XyaEMaQ3S0FqOQLWUX9LdalKvDxbJtQVZFm9CcwfqU82sWpJlkDQiiB6bdGBtD3YHn-VfXrncBNT6cygsKVcb8mhdUB_KgeYG6xobqP1mWw6cl7w-PfBPAQMJ8NW2VQZWPW3zMH-4FrMoMCcR9n0bbAt6oAl2pcIMv46ev3yzcK0dK91O341fPUADdvPyzktjs6l-HOfiHyuVcQZBg6LxiFJpO4SvT8I0afXdg69e77MkzIRaKhZKNMsC55mkIeO0RPbSPCoZnpG0KNjW2o2hoc7hckmpEHaIwHG2xrjc7N0a4XrnWleBsHtk63z_bHvktEhml1PKMvMc7-5L5r2oaHwnIZNUTPfZVh0gm8wU7rDHDnYIYBFKWlWSDziEDQmJcQCI5-Q5lZUICr4B1ZeI9QJ8o7lG9ikjRdCb5n8onuzrmz85tA3KWSThkKv-QsZRWUr08iSSPLjU9bvFL8JW9Tqx5oLPUAbUT-ULjsK8EEI4gPlxC0TBdrqQlELALrNs7k7knTOBIwsHrDMQcir0Nc1Lao0lIhiujeVA2PqcobhaUOExCxbpEjIbEcPHB1j73JwKdM3aRInrb8E_JIcBfdrjHR3Uzq3dx7W9ku7kucawfEhxCmWjsWpxAqglu2LxQ4_-8q35hRmG-ypXqeUhsdo8Hfz7FlJurSjwGatGkOWKHAI8NGVWdKU3jY2tu32KKYsEx5UR6P-tj1BJCJysq1WCYb4Up-FSqkUNkbUFVrZJaL2UD7wCtswAb5rvB36tryepfLL-86TCjllvV5LOSxPDhIQaLwT_5s128vN-xP7v8tlWbW0ltMcwWaKbInry6tQJGBvxvr5aGVtH5CTtmq_wiBkJtzbEnRCzt7H4shar-v3SI7vAQCrknhkPR2B5-zMHhREwzYCuvZ-qRG-SGlXazdcWN-Xuq_yB0NbJNOmdZtH8MD8knRYGkQpc7Z7VIxy9o4c22ZHC0utAXrPFNC-EC4H-_flZEipFHgNs3CGCG-AUEbEjy4pY5k3myPWULrIum9kgh5PWJNl3BcDDj66Q9YyfPB3LUeVD8jvaieXtVQIUNyH-EtzrEx-OdX_lTtbRvnZJcyDuXaCxjPNLfWOuAIqkpS3yvSZzafmMJoWr6PGUscmSaUG23OeG5ZcsHxjnGgcnRXHq-1l5XRSUMmku-KloTzIkULnMomDui-ORGuN1rdpoeDTmILYYHcCE8ZF76x8085OfIioaOjinaJy3BVsJlHoMM6ihsiB_wNqI4ZFmFMqeDSarYS27jVYwcrKyzb1EsHZKmu7uQ6n-RZJeeGN8xJ36RexiS3TASTEN2AArwi-sXKHWJgEPdk-Yu_s1YwCIGeTshw4lszfHh9jho_SKxbeDX56IKVfuUB7F2JPJJ7KLmajWYd2o7zoXqzvCejZ6vddIRMEg8dzT2F5jNjPBwSWDMbmJF2wZL0tI_z4negNHXMnusIhi39-O69Si6jocTKzSbnNo1uNI4aghnZ-MgSHlxiRPYd0ON-eZ3KiYowU32aeeEkgm_XATy9rnurGO6tHoKIT9hemJdY?authuser=1&nonce=5dmc413imt75m&user=116761084686343581932&hash=putvnc7v2tsvucslhoiduakn3o7nu66o" -->
-      <!-- download="my_document.pdf">Click here to download the pdf version of my resume</a></p> -->
     </main>
 
     <footer class="footer">
@@ -203,7 +513,8 @@
       </div>
     </footer>
 
-    <script>
+    <!-- code for drop down resume menu -->
+    <!-- <script>
       document.addEventListener("DOMContentLoaded", function () {
         document
           .querySelectorAll(".accordion-item")
@@ -236,8 +547,8 @@
             });
           });
       });
-    </script>
+    </script> -->
     <script src="general.js"></script>
-    <script src="general.js"></script>
+    <script src="form.js"></script>
   </body>
 </html>
