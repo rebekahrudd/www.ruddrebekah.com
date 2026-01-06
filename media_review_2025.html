@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Author: Rudd. Rebekah, Informational Website"
+    />
+    <title>Rebekah Rudd</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <style>
+      body {
+        margin: 0;
+        font-family:
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          sans-serif;
+        background: #fafafa;
+        color: #222;
+      }
+
+      .media-review-container {
+        min-height: 100vh;
+        padding: 1.5rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+      }
+
+      .media-review {
+        background: #ffffff;
+        padding: 1.25rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      }
+
+      .media-review h2 {
+        margin-top: 0;
+        font-size: 1.2rem;
+        border-bottom: 2px solid #eee;
+        padding-bottom: 0.4rem;
+      }
+
+      ol {
+        padding-left: 1.25rem;
+        margin: 0.75rem 0;
+      }
+
+      li {
+        margin-bottom: 0.4rem;
+        line-height: 1.4;
+      }
+
+      .total {
+        margin-top: 0.75rem;
+        font-weight: 600;
+        font-size: 0.9rem;
+        color: #555;
+      }
+
+      /* Tablet */
+      @media (max-width: 900px) {
+        .media-review-container {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      /* Mobile */
+      @media (max-width: 600px) {
+        .media-review-container {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- <h2 id="title"><a href="new.html">Rebekah Rudd</a></h2> -->
+
+    <div class="top-division">
+      <h2 id="text"><a href="index.html" id="name">Rebekah Rudd</a></h2>
+    </div>
+    <!-- Navbar -->
+    <div class="navbar" id="navbar" style="top: 0">
+      <!-- home page: about me -->
+      <a href="portfolio.html">📝 Portfolio</a>
+      <a href="travels.html">✈️ Blog</a>
+      <a href="crafts.html">🎨 Crafts 🖌️</a>
+      <!-- <a href="contact.html">✉️ Contact</a> -->
+    </div>
+
+    <nav class="mobile-nav">
+      <div id="menu" style="display: none">
+        <li><a href="index.html">🏠 Home</a></li>
+        <li><a href="portfolio.html">📝 Portfolio</a></li>
+        <li><a href="travels.html">✈️ Blog</a></li>
+        <li><a href="crafts.html">🎨 Crafts 🖌️</a></li>
+      </div>
+
+      <button class="hamburger" id="menu-button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+
+    <main style="background-color: #e8e0c4; padding-top: 90px">
+      <div class="container_travels">
+        <!-- Blog Content -->
+        <div class="blog-content">
+          <p id="return"><a href="travels.html">&#60; Back</a></p>
+
+          <!-- checklist
+          add content
+          format content
+          add tags
+          connect to blog page
+          (form add -> newsletter send out)
+  -->
+
+          <!-- Article 2 (Travel) -->
+          <div class="article" data-category="travel">
+            <a href="article.html">
+              <div class="article-header">
+                <div class="article-title">Media Review 2025</div>
+                <div class="article-meta">2025</div>
+              </div>
+            </a>
+            <div class="the-invitation">
+              <div class="media-review-container">
+                <div class="media-review">
+                  <h2>Books Listened To</h2>
+                  <ol>
+                    <li>
+                      Series: Book 3: The Prophecy of Blood – Suzanne Collins
+                    </li>
+                    <li>
+                      Series: Book 2: The Prophecy of Bane – Suzanne Collins
+                    </li>
+                    <li>
+                      Series: Book 1: Gregor the Overlander – Suzanne Collins
+                    </li>
+                    <li>
+                      The Ballad of Songbirds and Snakes – Suzanne Collins
+                    </li>
+                    <li>The Hunger Games – Suzanne Collins</li>
+                    <li>Sunrise on the Reaping – Suzanne Collins</li>
+                    <li>The Soul of Shame – Curt Thompson</li>
+                    <li>Harry Potter 7: The Deathly Hallows</li>
+                    <li>Harry Potter 6: The Half-Blood Prince</li>
+                    <li>Harry Potter 5: Order of the Phoenix</li>
+                    <li>Harry Potter 4: Goblet of Fire</li>
+                    <li>Harry Potter 3: Prisoner of Azkaban</li>
+                    <li>Harry Potter 2: Chamber of Secrets</li>
+                    <li>Harry Potter 1: Sorcerer’s Stone</li>
+                    <li>Keeper of the Lost Cities 4: Neverseen</li>
+                    <li>Keeper of the Lost Cities 3: Everblaze</li>
+                    <li>Keeper of the Lost Cities 2: Exile</li>
+                    <li>Keeper of the Lost Cities 1</li>
+                    <!-- <li>Shoe Dog by Phil Knight (section only)</li> -->
+                    <li>The Great Reckoning – John Stephens</li>
+                    <li>The Fire Chronicle – John Stephens</li>
+                    <li>The Emerald Atlas – John Stephens</li>
+                    <li>The Anxious Generation – Jonathan Haidt</li>
+                    <li>Killer Angels – Michael Shaara</li>
+                    <li>The School for Good and Evil #2</li>
+                    <li>The School for Good and Evil #1</li>
+                    <li>The 39 Clues: Vespers Rising</li>
+                    <li>The 39 Clues: Into the Gauntlet</li>
+                    <li>The 39 Clues: Storm Warning</li>
+                    <li>The 39 Clues: The Emperor’s Code</li>
+                    <li>The 39 Clues: The Viper’s Nest</li>
+                    <li>The 39 Clues: In Too Deep</li>
+                    <li>The 39 Clues: The Black Circle</li>
+                    <li>The 39 Clues: Beyond the Grave</li>
+                    <li>The 39 Clues: The Sword Thief</li>
+                    <li>The 39 Clues: One False Note</li>
+                    <li>The 39 Clues: The Maze of Bones</li>
+                    <li>The Divide – Jason Hickel</li>
+                    <li>The Meaning of Marriage – Tim Keller</li>
+                  </ol>
+                  <div class="total">Total: 38</div>
+                </div>
+
+                <div class="media-review">
+                  <h2>Books Read</h2>
+                  <ol>
+                    <li>Religious Affections – Jonathan Edwards</li>
+                    <li>Every Moment Holy – Douglas Kaine McKelvey</li>
+                    <li>The Eyes of Gaza – Plestia Alaqad</li>
+                    <li>You’re Only Human – Kelly Kapic</li>
+                    <li>Beyond Color Blind – Sarah Shin</li>
+                    <li>Enjoying the Presence of God – Jan Johnson</li>
+                    <li>
+                      Sex, Jesus, and the Conversations the Church Forgot – Mo
+                      Ism
+                    </li>
+                    <li>Butterfly Mosque – G. Willow Wilson</li>
+                    <li>Velocity Zero – Aberdeen Livingstone</li>
+                    <li>When to Speak Up – Dr. Michael D. Sedler</li>
+                    <li>Banthology – Multiple Authors</li>
+                    <li>God’s Good Design – Claire Smith</li>
+                    <li>Man’s Search for Meaning – Viktor Frankl</li>
+                    <li>The Sacred Search – Gary Thompson</li>
+                    <li>Once in a Promised Land – Laila Halaby</li>
+                    <li>Girl in the Tangerine Scarf – Mohja Kahf</li>
+                    <li>Arab in America – Toufic El Rassi</li>
+                    <li>The Ruthless Elimination of Hurry – John Mark Comer</li>
+                  </ol>
+                  <div class="total">Total: 18</div>
+                </div>
+
+                <div class="media-review">
+                  <h2>Movies Watched</h2>
+                  <ol>
+                    <li>Now You See Me</li>
+                    <li>Now You See Me 2 (x2)</li>
+                    <li>Zootopia 2</li>
+                    <li>Free Bird</li>
+                    <li>Inception</li>
+                    <li>Anne of Green Gables</li>
+                    <li>Murder on the Orient Express</li>
+                    <li>Untold: Sign Stealing</li>
+                    <li>Unsung Hero</li>
+                    <li>17 Again (x2)</li>
+                    <li>Ferris Bueller’s Day Off</li>
+                    <li>Fantastic Four</li>
+                    <li>Annihilation</li>
+                    <li>Happy Gilmore 2</li>
+                    <li>Arrival</li>
+                    <li>The Present</li>
+                    <!-- <li>Bonbone</li> -->
+                    <li>Elio</li>
+                    <li>Come From Away</li>
+                    <li>Wicked: Part I</li>
+                    <li>The Bodyguard</li>
+                    <li>Hacksaw Ridge</li>
+                    <li>Passion of the Christ</li>
+                    <li>Mogul Mowgli</li>
+                    <li>My Name is Khan</li>
+                    <li>Ben-Hur</li>
+                    <li>Gladiator</li>
+                    <li>Gladiator II</li>
+                    <li>What Happens in Vegas</li>
+                    <li>Monster-in-Law</li>
+                    <li>Over the Hedge</li>
+                    <li>The School for Good and Evil</li>
+                    <li>20,000 Species of Bees</li>
+                    <li>Bye Bye Tiberias</li>
+                    <li>Pride and Prejudice and Zombies</li>
+                    <li>Am I Racist?</li>
+                    <li>Capernaum</li>
+                    <li>Out of My Mind</li>
+                  </ol>
+                  <div class="total">Total: 37</div>
+                </div>
+
+                <div class="media-review">
+                  <h2>TV Show Episodes Watched</h2>
+                  <ol>
+                    <li>Friends S7E1</li>
+                    <li>Psych S6E11</li>
+                    <li>Psych S6E8</li>
+                    <li>Psych S6E6</li>
+                    <li>Psych S6E4</li>
+                    <li>Psych S6E5</li>
+                    <li>Psych S5E16</li>
+                    <li>Psych S6E1</li>
+                    <li>Psych S6E2</li>
+                    <li>Psych S6E3</li>
+                    <li>Psych S5E15</li>
+                    <li>Younger S1E1–3</li>
+                  </ol>
+                  <div class="total">Total: 12 episodes</div>
+                </div>
+
+                <div class="media-review">
+                  <h2>Other Media</h2>
+                  <ol>
+                    <li>Musical Theater: Hello Girls</li>
+                  </ol>
+                  <div class="total">Total: 1</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tags">
+              <a href="#" data-filter="travel"
+                ><span class="tag">Travel</span></a
+              >
+              <a href="#" data-filter="culture"
+                ><span class="tag">Culture</span></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Sidebar with categories (on the right) -->
+        <div class="sidebar">
+          <h2 style="color: #563727">Categories</h2>
+          <ul class="categories">
+            <li><a href="#" data-filter="all">All</a></li>
+            <li><a href="#" data-filter="culture">Culture</a></li>
+            <li><a href="#" data-filter="poetry">Poetry</a></li>
+            <li><a href="#" data-filter="travel">Travel</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const categoryLinks = document.querySelectorAll(".categories a");
+          const articles = document.querySelectorAll(".article");
+
+          categoryLinks.forEach((link) => {
+            link.addEventListener("click", function (event) {
+              event.preventDefault(); // Prevent page refresh
+
+              let category = this.dataset.filter; // Get the selected category
+
+              articles.forEach((article) => {
+                if (
+                  category === "all" ||
+                  article.dataset.category === category
+                ) {
+                  article.style.display = "block"; // Show matching articles
+                } else {
+                  article.style.display = "none"; // Hide others
+                }
+              });
+            });
+          });
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+          const categoryLinks = document.querySelectorAll(".tags a");
+          const articles = document.querySelectorAll(".article");
+
+          categoryLinks.forEach((link) => {
+            link.addEventListener("click", function (event) {
+              event.preventDefault(); // Prevent page refresh
+
+              let category = this.dataset.filter; // Get the selected category
+
+              articles.forEach((article) => {
+                if (
+                  category === "all" ||
+                  article.dataset.category === category
+                ) {
+                  article.style.display = "block"; // Show matching articles
+                } else {
+                  article.style.display = "none"; // Hide others
+                }
+              });
+            });
+          });
+        });
+      </script>
+    </main>
+
+    <footer class="footer">
+      <!-- Left: Webpage Links -->
+      <div>
+        <h3>Quick Links</h3>
+        <a href="index.html">🏠 Home</a>
+        <!-- <a href="#">📖 About Us</a> -->
+        <a href="portfolio.html">📝 Portfolio</a>
+        <a href="travels.html">✈️ Blog</a>
+        <a href="crafts.html">🖌️ Crafts</a>
+      </div>
+
+      <!-- Middle: Address -->
+      <div>
+        <h3>Contact Me</h3>
+        <p>Phone: (603) 443-1655</p>
+        <p>Email: ruddrebekah@gmail.com</p>
+        <p>Instagram: @rebekahr_5</p>
+        <p>
+          <a href="https://github.com/rebekahrudd/ruddrebekah.com"
+            >Github Repo for this website</a
+          >
+        </p>
+      </div>
+
+      <!-- Right: Contact Information -->
+      <div>
+        <h3>1 Corinthians 10:31</h3>
+        <!-- <p>NIV (English): So whether you eat or drink or whatever you do, do it all for the glory of God. 1 Corinthians 10:31</p>
+        <p>CCB Simplified (Mandarin Chinese): 所以，你们或吃或喝，无论做什么，都要为上帝的荣耀而做。哥林多前书 10:31</p>
+        <p>CCBT Traditional (Mandarin Chinese): 所以，你們或吃或喝，無論做什麼，都要為上帝的榮耀而做。哥林多前書 10:31</p>
+        <p>Easy-to-Read (Arabic): فَإنْ كُنْتُمْ تَأْكُلُونَ أوْ تَشْرَبُونَ، أوْ مَهْمَا فَعَلْتُمْ، فَافْعَلُوهُ مِنْ أجْلِ مَجْدِ اللهِ. ﻛﻮﺭﻧﺜﻮﺱ ﺍﻻﻭﻝ 10:31
+        <p>Reina-Valera 1960(Spanish): Si, pues, coméis o bebéis, o hacéis otra cosa, hacedlo todo para la gloria de Dios. 1 Corintios 10:31</p> -->
+        <p>
+          "So whether you eat or drink or whatever you do, do it all for the
+          glory of God. (NIV)"
+        </p>
+        <!-- <p>CCB Simplified (Mandarin Chinese): 所以，你们或吃或喝，无论做什么，都要为上帝的荣耀而做。哥林多前书 10:31</p> -->
+        <!-- <p>所以，你們或吃或喝，無論做什麼，都要為上帝的榮耀而做。哥林多前書 10:31 (CCBT)</p>
+        <p>فَإنْ كُنْتُمْ تَأْكُلُونَ أوْ تَشْرَبُونَ، أوْ مَهْمَا فَعَلْتُمْ، فَافْعَلُوهُ مِنْ أجْلِ مَجْدِ اللهِ. ﻛﻮﺭﻧﺜﻮﺱ ﺍﻻﻭﻝ 10:31 </p>
+        <p>Si, pues, coméis o bebéis, o hacéis otra cosa, hacedlo todo para la gloria de Dios. 1 Corintios 10:31</p> -->
+      </div>
+    </footer>
+
+    <script></script>
+    <script src="general.js"></script>
+  </body>
+</html>
